@@ -18,7 +18,7 @@
 
 ### :fire: 난이도 (上)
 + F - (Unrated) [6416 트리인가?](https://www.acmicpc.net/problem/6416) 
-+ D - (G1) [2042 구간 합 구하기](https://www.acmicpc.net/problem/2042)  (:star:) (:heart:)
++ D - (G1) [2042 구간 합 구하기](https://www.acmicpc.net/problem/2042)  (:star:) (:heart:)<img src = "https://github.com/suchshin.png" width="25" height="25">
 + I - (P5) [9202 Boggle](https://www.acmicpc.net/problem/9202)
 + L - (G2) [1655 가운데를 말해요](https://www.acmicpc.net/problem/1655)
 + M - (G2) [1202 보석 도둑](https://www.acmicpc.net/problem/1202)

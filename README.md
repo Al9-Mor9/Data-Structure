@@ -3,10 +3,10 @@
 ## 풀어볼 문제들
 
 ### :watermelon: 난이도 (下)
-+ A - (S4) [10828 스택](https://www.acmicpc.net/problem/10828) (:star:)
-+ B - (S4) [10845 큐](https://www.acmicpc.net/problem/10845) (:star:)
-+ J - (S2) [1927 최소 힙](https://www.acmicpc.net/problem/1927)  (:star:)
-+ K - (S2) [11279 최대 힙](https://www.acmicpc.net/problem/11279)  (:star:)
++ A - (S4) [10828 스택](https://www.acmicpc.net/problem/10828) (:star:)<img src = "https://github.com/sulogc.png" width="25" height="25">
++ B - (S4) [10845 큐](https://www.acmicpc.net/problem/10845) (:star:)<img src = "https://github.com/sulogc.png" width="25" height="25">
++ J - (S2) [1927 최소 힙](https://www.acmicpc.net/problem/1927)  (:star:)<img src = "https://github.com/sulogc.png" width="25" height="25">
++ K - (S2) [11279 최대 힙](https://www.acmicpc.net/problem/11279)  (:star:)<img src = "https://github.com/sulogc.png" width="25" height="25">
 + H - (S2) [4358 생태학](https://www.acmicpc.net/problem/4358) 
 
 

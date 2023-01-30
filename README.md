@@ -12,7 +12,7 @@
 
 ### :evergreen_tree: 난이도 (中)
 + E - (S1) [2504 괄호의 값](https://www.acmicpc.net/problem/2504) (:heart:)<img src = "https://github.com/sulogc.png" width="25" height="25"><img src = "https://github.com/Frog-Slayer.png" width="25" height="25">
-+ C - (S1) [1991 트리 순회](https://www.acmicpc.net/problem/1991) (:star:) (:heart:)<img src = "https://github.com/sulogc.png" width="25" height="25">
++ C - (S1) [1991 트리 순회](https://www.acmicpc.net/problem/1991) (:star:) (:heart:)<img src = "https://github.com/sulogc.png" width="25" height="25"><img src = "https://github.com/wocjs.png" width="25" height="25">
 + G - (G5) [5639 이진 검색 트리](https://www.acmicpc.net/problem/5639) (:star:)
 + O - (G5) [3020 개똥벌레](https://www.acmicpc.net/problem/3020)
 

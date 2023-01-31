@@ -3,22 +3,22 @@
 ## 풀어볼 문제들
 
 ### :watermelon: 난이도 (下)
-+ A - (S4) [10828 스택](https://www.acmicpc.net/problem/10828) (:star:)<img src = "https://github.com/sulogc.png" width="25" height="25">
-+ B - (S4) [10845 큐](https://www.acmicpc.net/problem/10845) (:star:)<img src = "https://github.com/sulogc.png" width="25" height="25">
-+ J - (S2) [1927 최소 힙](https://www.acmicpc.net/problem/1927)  (:star:)<img src = "https://github.com/sulogc.png" width="25" height="25">
-+ K - (S2) [11279 최대 힙](https://www.acmicpc.net/problem/11279)  (:star:)<img src = "https://github.com/sulogc.png" width="25" height="25">
++ A - (S4) [10828 스택](https://www.acmicpc.net/problem/10828) (:star:)
++ B - (S4) [10845 큐](https://www.acmicpc.net/problem/10845) (:star:)
++ J - (S2) [1927 최소 힙](https://www.acmicpc.net/problem/1927)  (:star:)
++ K - (S2) [11279 최대 힙](https://www.acmicpc.net/problem/11279)  (:star:)
 + H - (S2) [4358 생태학](https://www.acmicpc.net/problem/4358) 
 
 
 ### :evergreen_tree: 난이도 (中)
-+ E - (S1) [2504 괄호의 값](https://www.acmicpc.net/problem/2504) (:heart:)<img src = "https://github.com/sulogc.png" width="25" height="25"><img src = "https://github.com/Frog-Slayer.png" width="25" height="25"><img src = "https://github.com/wocjs.png" width="25" height="25"><img src = "https://github.com/Haaarimmm.png" width="25" height="25">
-+ C - (S1) [1991 트리 순회](https://www.acmicpc.net/problem/1991) (:star:) (:heart:)<img src = "https://github.com/sulogc.png" width="25" height="25"><img src = "https://github.com/wocjs.png" width="25" height="25"><img src = "https://github.com/Frog-Slayer.png" width="25" height="25">
++ E - (S1) [2504 괄호의 값](https://www.acmicpc.net/problem/2504) (:heart:)
++ C - (S1) [1991 트리 순회](https://www.acmicpc.net/problem/1991) (:star:) (:heart:)
 + G - (G5) [5639 이진 검색 트리](https://www.acmicpc.net/problem/5639) (:star:)
 + O - (G5) [3020 개똥벌레](https://www.acmicpc.net/problem/3020)
 
 ### :fire: 난이도 (上)
 + F - (Unrated) [6416 트리인가?](https://www.acmicpc.net/problem/6416) 
-+ D - (G1) [2042 구간 합 구하기](https://www.acmicpc.net/problem/2042)  (:star:) (:heart:)<img src = "https://github.com/suchshin.png" width="25" height="25"><img src = "https://github.com/Frog-Slayer.png" width="25" height="25">
++ D - (G1) [2042 구간 합 구하기](https://www.acmicpc.net/problem/2042)  (:star:) (:heart:)
 + I - (P5) [9202 Boggle](https://www.acmicpc.net/problem/9202)
 + L - (G2) [1655 가운데를 말해요](https://www.acmicpc.net/problem/1655)
 + M - (G2) [1202 보석 도둑](https://www.acmicpc.net/problem/1202)

@@ -18,7 +18,7 @@
 
 ### :fire: 난이도 (上)
 + F - (Unrated) [6416 트리인가?](https://www.acmicpc.net/problem/6416) 
-+ D - (G1) [2042 구간 합 구하기](https://www.acmicpc.net/problem/2042)  (:star:) (:heart:)[<img src = "https://github.com/suchshin.png" width="25" height="25">](./Code/2042/2042_S.py)[<img src = "https://github.com/Frog-Slayer.png" width="25" height="25">](./Code/2042/2042_P.cpp)[<img src = "https://github.com/wocjs.png" width="25" height="25">](./Code/2042/2042_H.py)[<img src = "https://github.com/sulogc.png" width="25" height="25">](./Code/2042/2042_L.py)
++ D - (G1) [2042 구간 합 구하기](https://www.acmicpc.net/problem/2042)  (:star:) (:heart:)[<img src = "https://github.com/suchshin.png" width="25" height="25">](./Code/2042/2042_S.py)[<img src = "https://github.com/Frog-Slayer.png" width="25" height="25">](./Code/2042/2042_P.cpp)[<img src = "https://github.com/wocjs.png" width="25" height="25">](./Code/2042/2042_H.py)[<img src = "https://github.com/sulogc.png" width="25" height="25">](./Code/2042/2042_L.py)[<img src = "https://github.com/Haaarimmm.png" width="25" height="25">](./Code/2042/2042_K.py)
 + I - (P5) [9202 Boggle](https://www.acmicpc.net/problem/9202)
 + L - (G2) [1655 가운데를 말해요](https://www.acmicpc.net/problem/1655)
 + M - (G2) [1202 보석 도둑](https://www.acmicpc.net/problem/1202)

@@ -4,7 +4,7 @@
 
 ### :watermelon: 난이도 (下)
 + A - (S4) [10828 스택](https://www.acmicpc.net/problem/10828) (:star:)[<img src = "https://github.com/sulogc.png" width="25" height="25">](./Code/10828/10828_L.py)[<img src = "https://github.com/wocjs.png" width="25" height="25">](./Code/10828/10828_H.py)[<img src = "https://github.com/Haaarimmm.png" width="25" height="25">](./Code/10828/10828_K.py)
-+ B - (S4) [10845 큐](https://www.acmicpc.net/problem/10845) (:star:)[<img src = "https://github.com/sulogc.png" width="25" height="25">](./Code/10845/10845_L.py)[<img src = "https://github.com/wocjs.png" width="25" height="25">](./Code/10845/10845_H.py)
++ B - (S4) [10845 큐](https://www.acmicpc.net/problem/10845) (:star:)[<img src = "https://github.com/sulogc.png" width="25" height="25">](./Code/10845/10845_L.py)[<img src = "https://github.com/wocjs.png" width="25" height="25">](./Code/10845/10845_H.py)[<img src = "https://github.com/Haaarimmm.png" width="25" height="25">](./Code/10845/10845_K.py)
 + J - (S2) [1927 최소 힙](https://www.acmicpc.net/problem/1927)  (:star:)[<img src = "https://github.com/sulogc.png" width="25" height="25">](./Code/1927/1927_L.py)[<img src = "https://github.com/wocjs.png" width="25" height="25">](./Code/1927/1927_H.py)
 + K - (S2) [11279 최대 힙](https://www.acmicpc.net/problem/11279)  (:star:)[<img src = "https://github.com/sulogc.png" width="25" height="25">](./Code/11279/11279_L.py)[<img src = "https://github.com/wocjs.png" width="25" height="25">](./Code/11279/11279_H.py)
 + H - (S2) [4358 생태학](https://www.acmicpc.net/problem/4358) 

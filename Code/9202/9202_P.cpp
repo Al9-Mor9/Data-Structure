@@ -40,11 +40,12 @@ class Node{
 void dfs(Node* node, int length, int x, int y, string board[4], string result);
 Node head = Node();
 int w, b;
-string word, longestWord;
+string word, longestWord, result;
+set<string> found;
+string board[4];
 bool visited[4][4];
 int dir[8][2] = {{0, 1}, {1, 0}, {-1, 0}, {0, -1}, {1, -1}, {-1, 1}, {1, 1}, {-1, -1}};
-int score, numberOfWords;
-set<string> found;
+int score;
 
 int main(){
     cin >> w;
@@ -52,13 +53,12 @@ int main(){
         cin >> word;
         head.insert(word , 0);
     }
-    string board[4];
     cin >> b;
     for (int i = 0; i < b; i++){
-        string result = "";
         found.clear();
-        score = numberOfWords = 0;
+        result = "";
         longestWord = "";
+        score = 0;
         for (int i = 0; i < 4; i++) cin >> board[i];
         for (int i = 0; i < 4; i++){
             for (int j = 0; j < 5; j++){
@@ -68,7 +68,7 @@ int main(){
                 visited[i][j] = false;
             }
         }
-        cout << score << " " << longestWord << " " << numberOfWords << endl;
+        cout << score << " " << longestWord << " " << found.size() << endl;
     } 
 }
 
@@ -80,9 +80,7 @@ void dfs(Node* node, int length, int x, int y, string board[4], string result){
         if (longestWord.length() < cpy.length()) longestWord = cpy;
         else if (longestWord.length() == cpy.length() && longestWord > cpy) longestWord = cpy;
         if (found.count(cpy) == 0){
-            //cout << "found: " << cpy << endl;
             found.insert(cpy);
-            numberOfWords++;
             switch (cpy.length()){
                 case 3:
                 case 4: score += 1; break;
@@ -105,5 +103,4 @@ void dfs(Node* node, int length, int x, int y, string board[4], string result){
         dfs(node->child[c], length + 1, nextX, nextY, board, cpy);
         visited[nextX][nextY] = false;
     }    
-
 }

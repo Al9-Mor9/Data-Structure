@@ -4,27 +4,25 @@
 #include <set>
 using namespace std;
 
-class Node{ //Trie 자료구조 클래
+class Node{
     public : 
-        char c = 0;
         int depth = 0;
         unordered_map<char, Node*> child;
         Node(){}
-        Node(char ch, int d) {
-            c = ch;
+        Node(int d) {
             depth = d;
         }
 
         void insert(string word, int idx){
             if (!word[idx]){
-                child['*'] = new Node('*', depth + 1);
+                child['*'] = new Node(depth + 1);
                 return;
             }
             if (child.count(word[idx])) {
                 child[word[idx]]->insert(word, idx + 1);            
             }
             else {
-                child[word[idx]] = new Node(word[idx], depth + 1);
+                child[word[idx]] = new Node(depth + 1);
                 child[word[idx]]->insert(word, idx + 1);
             }
         }
@@ -36,16 +34,9 @@ class Node{ //Trie 자료구조 클래
             if (depth == word.length() && child.count('*')) return true;
             return false; 
         }
+
 };
-/* Trie가 제대로 만들어졌는지를 확인하기 위한 테스트 코드임
-void dfsForNode(Node * node, string res){
-    string tmp = res + node->c;
-    cout << tmp << endl;
-    for(pair<char, Node*> c : node->child){
-        dfsForNode(c.second, tmp);
-    }
-}
-*/
+
 void dfs(Node* node, int length, int x, int y, string board[4], string result);
 Node head = Node();
 int w, b;
@@ -70,7 +61,7 @@ int main(){
         longestWord = "";
         for (int i = 0; i < 4; i++) cin >> board[i];
         for (int i = 0; i < 4; i++){
-            for (int j = 0; j < 4; j++){
+            for (int j = 0; j < 5; j++){
                 if (!head.child.count(board[i][j])) continue;
                 visited[i][j] = true;
                 dfs(head.child[board[i][j]], 1, i, j, board, result);
@@ -80,6 +71,7 @@ int main(){
         cout << score << " " << longestWord << " " << numberOfWords << endl;
     } 
 }
+
 
 void dfs(Node* node, int length, int x, int y, string board[4], string result){
     if (length > 8) return;
@@ -113,4 +105,5 @@ void dfs(Node* node, int length, int x, int y, string board[4], string result){
         dfs(node->child[c], length + 1, nextX, nextY, board, cpy);
         visited[nextX][nextY] = false;
     }    
+
 }

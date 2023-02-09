@@ -40,7 +40,7 @@ class Node{
 void dfs(Node* node, int length, int x, int y, string board[4], string result);
 Node head = Node();
 int w, b;
-string word, longestWord, result;
+string word, longestWord;
 set<string> found;
 string board[4];
 bool visited[4][4];
@@ -56,7 +56,6 @@ int main(){
     cin >> b;
     for (int i = 0; i < b; i++){
         found.clear();
-        result = "";
         longestWord = "";
         score = 0;
         for (int i = 0; i < 4; i++) cin >> board[i];
@@ -64,7 +63,7 @@ int main(){
             for (int j = 0; j < 5; j++){
                 if (!head.child.count(board[i][j])) continue;
                 visited[i][j] = true;
-                dfs(head.child[board[i][j]], 1, i, j, board, result);
+                dfs(head.child[board[i][j]], 1, i, j, board, "");
                 visited[i][j] = false;
             }
         }

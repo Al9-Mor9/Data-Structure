@@ -4,27 +4,25 @@
 #include <set>
 using namespace std;
 
-class Node{ //Trie 자료구조 클래
+class Node{
     public : 
-        char c = 0;
         int depth = 0;
         unordered_map<char, Node*> child;
         Node(){}
-        Node(char ch, int d) {
-            c = ch;
+        Node(int d) {
             depth = d;
         }
 
         void insert(string word, int idx){
             if (!word[idx]){
-                child['*'] = new Node('*', depth + 1);
+                child['*'] = new Node(depth + 1);
                 return;
             }
             if (child.count(word[idx])) {
                 child[word[idx]]->insert(word, idx + 1);            
             }
             else {
-                child[word[idx]] = new Node(word[idx], depth + 1);
+                child[word[idx]] = new Node(depth + 1);
                 child[word[idx]]->insert(word, idx + 1);
             }
         }
@@ -36,24 +34,18 @@ class Node{ //Trie 자료구조 클래
             if (depth == word.length() && child.count('*')) return true;
             return false; 
         }
-};
 
-void dfsForNode(Node * node, string res){
-    string tmp = res + node->c;
-    cout << tmp << endl;
-    for(pair<char, Node*> c : node->child){
-        dfsForNode(c.second, tmp);
-    }
-}
+};
 
 void dfs(Node* node, int length, int x, int y, string board[4], string result);
 Node head = Node();
 int w, b;
 string word, longestWord;
+set<string> found;
+string board[4];
 bool visited[4][4];
 int dir[8][2] = {{0, 1}, {1, 0}, {-1, 0}, {0, -1}, {1, -1}, {-1, 1}, {1, 1}, {-1, -1}};
-int score, numberOfWords;
-set<string> found;
+int score;
 
 int main(){
     cin >> w;
@@ -61,25 +53,24 @@ int main(){
         cin >> word;
         head.insert(word , 0);
     }
-    string board[4];
     cin >> b;
     for (int i = 0; i < b; i++){
-        string result = "";
         found.clear();
-        score = numberOfWords = 0;
         longestWord = "";
+        score = 0;
         for (int i = 0; i < 4; i++) cin >> board[i];
         for (int i = 0; i < 4; i++){
-            for (int j = 0; j < 4; j++){
+            for (int j = 0; j < 5; j++){
                 if (!head.child.count(board[i][j])) continue;
                 visited[i][j] = true;
-                dfs(head.child[board[i][j]], 1, i, j, board, result);
+                dfs(head.child[board[i][j]], 1, i, j, board, "");
                 visited[i][j] = false;
             }
         }
-        cout << score << " " << longestWord << " " << numberOfWords << endl;
+        cout << score << " " << longestWord << " " << found.size() << endl;
     } 
 }
+
 
 void dfs(Node* node, int length, int x, int y, string board[4], string result){
     if (length > 8) return;
@@ -88,9 +79,7 @@ void dfs(Node* node, int length, int x, int y, string board[4], string result){
         if (longestWord.length() < cpy.length()) longestWord = cpy;
         else if (longestWord.length() == cpy.length() && longestWord > cpy) longestWord = cpy;
         if (found.count(cpy) == 0){
-            //cout << "found: " << cpy << endl;
             found.insert(cpy);
-            numberOfWords++;
             switch (cpy.length()){
                 case 3:
                 case 4: score += 1; break;

@@ -13,7 +13,7 @@
 ### :evergreen_tree: 난이도 (中)
 + E - (S1) [2504 괄호의 값](https://www.acmicpc.net/problem/2504) (💔)[<img src = "https://github.com/wocjs.png" width="25" height="25">](./Code/2504/2504_H.py)[<img src = "https://github.com/sulogc.png" width="25" height="25">](./Code/2504/2504_L.py)[<img src = "https://github.com/Frog-Slayer.png" width="25" height="25">](./Code/2504/2504_P.cpp)[<img src = "https://github.com/Haaarimmm.png" width="25" height="25">](./Code/2504/2504_K.py)[<img src = "https://github.com/suchshin.png" width="25" height="25">](./Code/2504/2504_S.py)
 + C - (S1) [1991 트리 순회](https://www.acmicpc.net/problem/1991) (:star:) (💔)[<img src = "https://github.com/wocjs.png" width="25" height="25">](./Code/1991/1991_H.py)[<img src = "https://github.com/sulogc.png" width="25" height="25">](./Code/1991/1991_L.py)[<img src = "https://github.com/Frog-Slayer.png" width="25" height="25">](./Code/1991/1991_P.cpp)[<img src = "https://github.com/Haaarimmm.png" width="25" height="25">](./Code/1991/1991_K.py)
-+ G - (G5) [5639 이진 검색 트리](https://www.acmicpc.net/problem/5639) (:star:) (:heart:)
++ G - (G5) [5639 이진 검색 트리](https://www.acmicpc.net/problem/5639) (:star:) (:heart:)[<img src = "https://github.com/Haaarimmm.png" width="25" height="25">](./Code/5639/5639_K.py)
 + O - (G5) [3020 개똥벌레](https://www.acmicpc.net/problem/3020) (:heart:)[<img src = "https://github.com/Frog-Slayer.png" width="25" height="25">](./Code/3020/3020_P.cpp)
 
 ### :fire: 난이도 (上)

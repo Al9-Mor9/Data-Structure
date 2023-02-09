@@ -37,7 +37,7 @@ class Node{ //Trie 자료구조 클래
             return false; 
         }
 };
-
+/* Trie가 제대로 만들어졌는지를 확인하기 위한 테스트 코드임
 void dfsForNode(Node * node, string res){
     string tmp = res + node->c;
     cout << tmp << endl;
@@ -45,7 +45,7 @@ void dfsForNode(Node * node, string res){
         dfsForNode(c.second, tmp);
     }
 }
-
+*/
 void dfs(Node* node, int length, int x, int y, string board[4], string result);
 Node head = Node();
 int w, b;

@@ -21,7 +21,7 @@
 + D - (G1) [2042 구간 합 구하기](https://www.acmicpc.net/problem/2042)  (:star:) (💔)[<img src = "https://github.com/suchshin.png" width="25" height="25">](./Code/2042/2042_S.py)[<img src = "https://github.com/Frog-Slayer.png" width="25" height="25">](./Code/2042/2042_P.cpp)[<img src = "https://github.com/wocjs.png" width="25" height="25">](./Code/2042/2042_H.py)[<img src = "https://github.com/sulogc.png" width="25" height="25">](./Code/2042/2042_L.py)[<img src = "https://github.com/Haaarimmm.png" width="25" height="25">](./Code/2042/2042_K.py)
 + I - (P5) [9202 Boggle](https://www.acmicpc.net/problem/9202) (:heart:)[<img src = "https://github.com/Frog-Slayer.png" width="25" height="25">](./Code/9202/9202_P.cpp)
 + L - (G2) [1655 가운데를 말해요](https://www.acmicpc.net/problem/1655) (:heart:)[<img src = "https://github.com/sulogc.png" width="25" height="25">](./Code/1655/1655_L.py)
-+ M - (G2) [1202 보석 도둑](https://www.acmicpc.net/problem/1202)
++ M - (G2) [1202 보석 도둑](https://www.acmicpc.net/problem/1202)[<img src = "https://github.com/sulogc.png" width="25" height="25">](./Code/1202/1202_L.py)
 + N - (P5) [2243 사탕상자](https://www.acmicpc.net/problem/2243)
 + P - (G1) [1275 커피숍2](https://www.acmicpc.net/problem/1275)
 + Q - (G1) [2014 소수의 곱](https://www.acmicpc.net/problem/2014)[<img src = "https://github.com/Frog-Slayer.png" width="25" height="25">](./Code/2014/2014_P.cpp)

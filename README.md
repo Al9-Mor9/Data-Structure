@@ -24,7 +24,7 @@
 + M - (G2) [1202 보석 도둑](https://www.acmicpc.net/problem/1202)
 + N - (P5) [2243 사탕상자](https://www.acmicpc.net/problem/2243)
 + P - (G1) [1275 커피숍2](https://www.acmicpc.net/problem/1275)
-+ Q - (G1) [2014 소수의 곱](https://www.acmicpc.net/problem/2014)
++ Q - (G1) [2014 소수의 곱](https://www.acmicpc.net/problem/2014)[<img src = "https://github.com/Frog-Slayer.png" width="25" height="25">](./Code/2014/2014_P.cpp)
 + R - (P3) [2094 강수량](https://www.acmicpc.net/problem/2094)
 
 

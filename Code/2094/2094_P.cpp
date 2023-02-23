@@ -36,7 +36,7 @@ int main(){
 		year[i] = y;
 		rain[i] = r;
 	}
-	makeTree(0, n, 1);
+	makeTree(0, n-1, 1);
 
 	scanf("%d", &m);
 	for (int i = 0; i < m; i++){
@@ -54,7 +54,7 @@ int main(){
 		if (yExists && xExists){
 			if (rain[xLBIdx] <= rain[yLBIdx]) {
 				if (X - Y == 1) printf("true\n");
-				else if (segSearch(0, n, 1, yLBIdx + 1, xLBIdx- 1) < rain[xLBIdx]) {
+				else if (segSearch(0, n-1, 1, yLBIdx + 1, xLBIdx- 1) < rain[xLBIdx]) {
 					if (X - Y == xLBIdx - yLBIdx) printf("true\n");
 					else printf("maybe\n");
 				}
@@ -65,7 +65,7 @@ int main(){
 		else if (yExists){//y는 확실한데 x는 아닌 경우 : y의 다음 해 ~ x보다 작은 가장 큰 연도를 고려해야 함
 			if (X - Y == 1) printf("maybe\n");
 			else {
-				int maxRain = segSearch(0, n, 1, yLBIdx + 1, xLBIdx - 1);
+				int maxRain = segSearch(0, n-1, 1, yLBIdx + 1, xLBIdx - 1);
 				if (rain[yLBIdx] > maxRain) printf("maybe\n");
 				else printf("false\n");
 			}
@@ -73,7 +73,7 @@ int main(){
 		else if (xExists){//x는 있는데 y는 아닌 경우
 			if (X - Y == 1) printf("maybe\n");
 			else {
-				int maxRain = segSearch(0, n, 1, yLBIdx, xLBIdx - 1);
+				int maxRain = segSearch(0, n-1, 1, yLBIdx, xLBIdx - 1);
 				if (rain[xLBIdx] > maxRain) printf("maybe\n");
 				else printf("false\n");
 			}

@@ -22,7 +22,7 @@ int makeTree(int start, int end, int root){
 }
 
 int segSearch(int start, int end, int root, int left, int right){
-	if (right < start || end < left) return -1;
+	if (right < start || end < left) return 0;
 	//printf("[%d] (%d ~ %d) -> %d : (%d ~ %d)\n", root, start, end, tree[root], left, right);
 	if (left <= start && end <= right) return tree[root];
 	int mid = (start + end) / 2;

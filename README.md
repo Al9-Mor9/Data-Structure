@@ -25,7 +25,7 @@
 + N - (P5) [2243 사탕상자](https://www.acmicpc.net/problem/2243)[<img src = "https://github.com/Frog-Slayer.png" width="25" height="25">](./Code/2243/2243_P.cpp)[<img src = "https://github.com/sulogc.png" width="25" height="25">](./Code/2243/2243_L.py)
 + P - (G1) [1275 커피숍2](https://www.acmicpc.net/problem/1275)[<img src = "https://github.com/sulogc.png" width="25" height="25">](./Code/1275/1275_L.py)[<img src = "https://github.com/Haaarimmm.png" width="25" height="25">](./Code/1275/1275_K.py)
 + Q - (G1) [2014 소수의 곱](https://www.acmicpc.net/problem/2014)[<img src = "https://github.com/Frog-Slayer.png" width="25" height="25">](./Code/2014/2014_P.cpp)[<img src = "https://github.com/Haaarimmm.png" width="25" height="25">](./Code/2014/2014_K.py)
-+ R - (P3) [2094 강수량](https://www.acmicpc.net/problem/2094)
++ R - (P3) [2094 강수량](https://www.acmicpc.net/problem/2094)[<img src = "https://github.com/Frog-Slayer.png" width="25" height="25">](./Code/2094/2094_P.cpp)
 
 
 

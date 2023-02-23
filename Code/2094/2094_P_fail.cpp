@@ -81,9 +81,7 @@ int main(){
 			}
 		}
 		else {//둘 다 모르는 경우
-			int maxRain = segSearch(0, n, 1, yLBIdx, xLBIdx - 1);
-			if (maxRain == 1000000000) printf("false\n");
-			else printf("maybe\n");
+			printf("maybe\n");
 		}
 	}
 }

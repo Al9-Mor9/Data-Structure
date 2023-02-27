@@ -17,10 +17,10 @@ for i in range(h - 1, 0, -1):
     down[i] += down[i + 1]
     up[i] += up[i + 1]
 # 역순으로 누적합 적용
-# print(up, down)   # [0, 3, 2, 2, 1, 1, 0, 0] [0, 3, 2, 2, 1, 1, 0, 0]
+print(up, down)   # [0, 3, 2, 2, 1, 1, 0, 0] [0, 3, 2, 2, 1, 1, 0, 0]
 
 up.reverse() # up은 위에 붙어있으므로 역순으로 바꿔줘야함
-# print(up, down)   # [0, 0, 1, 1, 2, 2, 3, 0] [0, 3, 2, 2, 1, 1, 0, 0]
+print(up, down)   # [0, 0, 1, 1, 2, 2, 3, 0] [0, 3, 2, 2, 1, 1, 0, 0]
 minCnt = 0
 breakFree = n   # 부수는 갯수
 '''
@@ -29,6 +29,7 @@ breakFree = n   # 부수는 갯수
   7  6  5  4  3  2  1  0
 '''
 for i in range(1, h + 1):
+    print(up[i-1], down[i])
     breakCnt = up[i - 1] + down[i]  # i번째 줄에서 진행 시 부수는 갯수
     if breakFree > breakCnt:    # 크기 비교
         breakFree = breakCnt    # 작은 수 입력
